@@ -7,8 +7,8 @@ console.log("Users:", users);
 console.log("Error:", error);
   return (
     <div>
-      {error && <p style={{ color: "red" }}>Error: {error.message}</p>}
-      <pre>{JSON.stringify(users, null, 2)}</pre>
+      /* {error && <p style={{ color: "red" }}>Error: {error.message}</p>}
+      <pre>{JSON.stringify(users, null, 2)}</pre> */
     </div>
   )
 }
